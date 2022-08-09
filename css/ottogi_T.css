@@ -1,0 +1,926 @@
+
+
+@media all and (min-width:601px) {
+    .inner_header {
+        margin-top: 5px;
+    }
+    
+    .inner_header .M_logo_box {
+        /* margin: 5px 50px 5px 70px; */
+        padding: 0 50px 0 20px;
+    }
+
+    .inner_header .W_search_box {
+        display: block;
+        border-bottom: 3px solid #ffdf64;
+        /* width: calc(100%- 500px); */
+        flex: 1;
+        height: 50px;
+        margin-right: 70px;
+    }
+
+    .inner_header .W_search_box i {
+        font-size: 20px;
+        color: #ffdf64;
+        float: right;
+        line-height: 60px;
+        padding: 0 10px;
+        cursor: pointer;
+
+        /* border: 1px solid #333; */
+    }
+
+    #search {
+        background: none;
+        border: none;
+        direction: none;
+        width: 85%;
+        color: white;
+        margin: 20px 0;
+    }
+
+    #search::placeholder {
+        opacity: 0;
+    }
+    
+    .category_box i {
+        font-size: 30px;
+        color: #ffdf64;
+    }
+
+    .M_search_box {display: none;}
+
+
+/* ----------------------header---------------------- */
+
+
+
+/* ----------------------menu_window---------------------- */
+
+
+.metapo_box {
+    margin-top: 70px;
+    padding-top: 20px;
+}
+
+
+.menu_list .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_list .menu>li {
+    display: flex;
+}
+
+.menu_list .menu li .menu_category {
+    border-bottom: none;
+    width: 100px;
+    background-color: rgba(51, 51, 51, 0.2);
+}
+
+.menu_list .menu .m6 .menu_category {
+    border-bottom: 1px solid #333;
+}
+
+.menu_list .menu>li div a {
+    padding: 20px 0;
+}
+
+/* .menu_list .menu .m2 .menu_category,
+.menu_list .menu .m4 .menu_category {
+    padding-top: 15px;
+} */
+
+.menu_list .menu li .menu_category {
+    padding: 10px 0;
+}
+
+.menu_list .menu li ul {
+    width: calc(100% - 110px);
+    border-top: 1px solid #333;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 15px;
+    justify-content: start;
+}
+
+.menu_list .menu li .m6_ul {
+    border-bottom: 1px solid #333;
+}
+
+.menu_list .menu li ul li ~ li::before {
+    opacity: 0;
+}
+
+
+.menu_list .menu li ul .li_first {
+    margin-left: 30px;
+}
+
+.menu_list .menu li ul li {
+    line-height: 40px;
+}
+
+
+/* ----------------------menu_window---------------------- */
+
+
+
+
+/* ----------------------section_00 main_visual---------------------- */
+
+/* ----------------------header_bottom_ladel---------------------- */
+
+    .section_wrap {
+        /* overflow: hidden; */
+        height: calc(100vh - 70px);
+    }
+
+    .section_wrap section {
+        /* height: calc(100vh - 70px); */
+        height: 100vh;
+        /* width: 100%; */
+    }
+
+    .section_wrap section .section_inner {
+        padding-top: 0px;
+    }
+
+
+
+
+
+    .header_bottom_ladel {
+        position: static;
+        padding-top: 0px;
+        height: 40px;
+    }
+
+    .hashtag {
+        display: block;
+        margin-right: 10px;
+
+        z-index: 20;
+    }
+
+    .hashtag a {
+        line-height: 40px;
+        margin-right: 5px;
+    }
+
+    .M_section_nav {display: none;}
+    .W_section_nav {display: none;}
+
+    .T_section_nav {
+        display: block;
+        position: fixed;
+        right: 0; top: 50%;
+        transform: translateY(-40%);
+        z-index: 100;
+    }
+
+    .T_section_nav ul li {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background-color: #ffed93;
+        border: 2px solid #ffdf64;
+    }
+
+    .T_section_nav ul li:first-child {
+        background-color: white;
+    }
+
+    .T_section_nav ul li:first-child img {
+        width: 100%;
+    }
+
+    .T_section_nav ul li a  {
+        font-size: 1.8rem;
+        color: white;
+    }
+
+
+/* ----------------------main_visual---------------------- */
+
+
+/* .main_visual .slider_nth_01 .img_box {
+    background-image: url(../img/visual_banner/T_main_visual01.jpg);
+}
+.main_visual .slider_nth_02 .img_box {
+    background-image: url(../img/visual_banner/T_main_visual02.jpg);
+}
+.main_visual .slider_nth_03 .img_box {
+    background-image: url(../img/visual_banner/T_main_visual03.jpg);
+}
+.main_visual .slider_nth_04 .img_box {
+    background-image: url(../img/visual_banner/T_main_visual04.jpg);
+}
+.main_visual .slider_nth_05 .img_box {
+    background-image: url(../img/visual_banner/T_main_visual05.jpg);
+}
+.main_visual .slider_nth_06 .img_box {
+    background-image: url(../img/visual_banner/T_main_visual06.jpg);
+} */
+
+.main_visual .slider_nth .text_box p {
+    font-size: 1.75rem;
+}
+
+.main_visual .slider_nth .text_box h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.main_visual .slider_nth .text_box ul li {
+    font-size: 0.875rem;
+}
+
+.main_visual .slider_nth .text_box a .button {
+    font-size: 1rem;
+}
+
+
+
+/* ----------------------main_visual---------------------- */
+
+
+
+/* ----------------------header_bottom_ladel---------------------- */
+
+/* ----------------------section_00 main_visual---------------------- */
+
+
+/* ----------------------section_01  yomojomo_page---------------------- */
+
+
+
+
+
+    .section_01_inner {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .section_01_inner .best_search {
+        flex: 1;
+        padding-left: 20px;
+    }
+
+    .best_search {
+        padding-top: 100px;
+        margin-right: 20px;
+    }
+
+    .best_search h3 {
+        font-size: 1.3rem;
+    }
+
+    .best_search p {
+        font-size: 1rem;
+    }
+
+    .best_search .best_search_list {
+        overflow: visible; 
+    }
+
+
+    .best_search ul {
+        display: block;
+        width: 120px;
+    }
+
+    .best_search ul li {
+        text-align: left;
+        margin: 5px 5px 5px 0;
+        font-size: 0.9rem;
+        display: inline-block;
+    }
+
+    .section_01_inner .yomojomo_page_inner_T {
+        flex: 9;
+        z-index: 0;
+        /* margin-right: 30px; */
+        margin-right: 60px;
+        /* background-color: aqua; */
+    }
+
+    .recipe_box {
+        width: calc(50% - 10px);
+        height: 500px;
+        margin-bottom: 20px;
+
+        /* border: 1px solid #333; */
+    }
+
+    .recipe_box h4 {
+        font-size: 1.3rem;
+        margin: 40px 0 20px;
+    }
+
+    .recipe_box .slider_img_box {
+        width: 200px;
+        height: 200px;
+
+        background-color: aqua;
+        /* border: 5px solid white; */
+    }
+
+    .recipe_box .slider_img_box ul li {
+        margin-left: -20px;
+    }
+
+    .recipe_box .slider_img_box ul li img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .recipe_box .slider_img_box ul li .kids_text_box,
+    .recipe_box .slider_img_box ul li .history_text_box {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .recipe_box .slider_img_box ul li .kids_text_box h5,
+    .recipe_box .slider_img_box ul li .history_text_box h5 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+
+    .recipe_box .slider_img_box ul li .history_text_box h5 {
+        width: 250px;
+        margin-left: -50px;
+    }
+
+    .recipe_box .slider_img_box ul li .kids_text_box p,
+    .recipe_box .slider_img_box ul li .history_text_box p {
+        overflow-x: visible;
+        width: 250px;
+        margin-left: -50px;
+    }
+
+    .recipe_box .indicator {
+        bottom: 10px; left: 50%;
+    }
+
+    /* .recipe_box  .slider_text ul li h5 {
+        font-size: 1.2rem;
+        margin: 20px 0 10px;
+    } */
+
+    .recipe_box .indicator i {
+        font-size: 1rem;
+    }
+
+
+    .measurement p strong {
+        font-size: 1.5rem;
+    }
+    .measurement p {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* ----------------------section_01  yomojomo_page---------------------- */
+
+
+
+/* ----------------------section_02  chef_tip_page---------------------- */
+
+
+@media all and (min-width:601px) and (max-width:1024px) {
+    .section_02_inner {
+        position: absolute;
+        top: 60%;
+        left: 0;
+        transform: translateY(-50%);
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 100vh;
+    }
+
+    #section_02 .section_02_inner .title {
+        /* height: 20vh; */
+        order: 1;
+        margin: 300px 50px 0;
+        padding-left: 40px;
+
+        /* background-color: yellow; */
+    }
+
+    .section_02_inner .title h3 {
+        font-size: 1.7rem;
+        line-height: 45px;
+    }
+
+    .section_02_inner .title h3::after {
+        margin: 30px auto;
+    }
+
+    .section_02_inner .title p {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+
+    .chef_tip_btn {
+        order: 2;
+        padding-top: 100px;
+        padding-left: 40px;
+        
+
+        /* background-color: pink; */
+    }
+
+    .section_02_inner .chef_tip_btn a {
+        font-size: 1.2rem;
+    }
+
+
+    /* .section_02_inner .fa-angle-left {
+        left: 570px;
+        top: 10px;
+        transform: rotate(90deg);
+    }
+    .section_02_inner .fa-angle-right {
+        right: -180px;
+        top: 89vh;
+        transform: rotate(90deg);
+    } */
+
+
+
+
+
+
+    .center_Slider_box {
+        width: 80%;
+        order: 3;
+        height: 75vh;
+        padding-top: 70px;
+        overflow: hidden;
+
+        /* background-color: powderblue; */
+    }
+
+    .center_Slider_box div .img_box{
+        margin: 70px 20px;
+    }
+
+    .center_Slider_box div p {
+        margin-top: -60px;
+    }
+
+
+    #chef_tip_prev {
+        position: absolute;
+        /* top: 50%; transform: translateY(-50%); */
+        top: 10px;
+        left: 138%;
+        transform: rotate(90deg);
+
+        /* background-color: aqua; */
+    }
+    
+    #chef_tip_next {
+        position: absolute;
+        /* top: 50%; transform: translateY(-50%); */
+        top: auto;
+        bottom: 18%;
+        right: -43%;
+        transform: rotate(90deg);
+    }
+
+
+}
+
+/* ----------------------section_02  chef_tip_page---------------------- */
+
+
+
+/* ----------------------section_03  chochen_recipe_page---------------------- */
+
+@media all and (min-width:601px) {
+
+    #section_03 {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .section_03_inner {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /* background-color: aqua; */
+    }
+
+    .section_03_inner .title {
+        margin: 50px auto 30px;
+    }
+
+    .chochen_recipe_btn {
+        margin: 0 auto 40px;
+    }
+
+    .chochen_recipe_btn a {
+        font-size: 1rem;
+    }
+
+    .recipe_list {
+
+        width: 610px;
+        height: 680px;
+        overflow: hidden;
+        /* transform: scale(1.1); */
+    
+        /* border: 1px solid #333; box-sizing: border-box;
+        background-color: aqua; */
+    }
+
+    .recipe_list .recipe_list_inner {
+        display: flex;
+        justify-content: space-between;
+        
+        /* flex-wrap: wrap; */
+        /* justify-content: space-between; */
+        /* align-content: stretch; */
+    }
+
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 {
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+        padding-right: 20px;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1_0 {
+        /* width: 100%; */
+        width: 400px;
+        height: 440px;
+        margin-bottom: 20px;
+
+        /* border: 1px solid #333; */
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1_0 .img_box {
+        width: 100%;
+    }
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1_0 .img_box img {
+        width: 100%;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1_0 .recipe_text_box {
+        height: 180px;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1_0 .recipe_text_box p {
+        margin-top: 30px;
+    }
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1_0 .recipe_text_box h4 {
+        font-size: 1.5rem;
+        top: 50px;
+    }
+
+
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1 .recipe_box {
+        width: 190px;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1 .recipe_box .img_box {
+        width: 100%;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1 .recipe_box .img_box img {
+        width: 100%;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1 .recipe_box .recipe_text_box {
+        height: 76.5px;
+    }
+
+
+
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        
+
+        /* background-color: palevioletred; */
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-1 .recipe_box {
+        height: 210.5px;
+        margin-bottom: 20px;
+        width: 190px;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-1 .recipe_box .recipe_text_box {
+        height: 76.5px;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-2 {
+        width: 190px;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-2 .recipe_text_box {
+        height: 76.5px;
+    }
+
+    .recipe_box .recipe_text_box {
+        position: relative;
+    }
+    .recipe_box .recipe_text_box h4 {
+        position: absolute;
+        left: 50%; top: 10px;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .recipe_box .recipe_text_box p {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+
+
+/* ----------------------section_03  chochen_recipe_page---------------------- */
+
+/* ----------------------section_04  best_recipe_page---------------------- */
+
+
+    #section_04 {
+        background: linear-gradient( to top, #ffed93 65%, white 35%);
+    }
+
+
+
+    .section_04_inner .title {
+        width: auto;
+        margin-top: 100px;
+    }
+
+    .section_04_inner .title h3 {
+        font-size: 1.875rem;
+    }
+
+    .section_04_inner .title h3::after {
+        margin: 30px auto;
+    }
+
+    .section_04_inner .title p {
+        /* font-size: 1.25rem; */
+        font-size: 1.1875rem;
+    }
+
+
+    .best_recipe_Slider_box_outer {
+        /* width: calc(100vw - 60px); */
+        width: 80%;
+    }
+
+        
+    /*  */
+
+    .slider .slick-list {
+        /* margin:0 -20px; */
+    }
+
+    .slick-slide {
+        margin:0 20px;
+    }
+
+    /*  */
+
+    .best_recipe_Slider_box {
+        width: 100%;
+        /* padding: 0 10px; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .best_recipe_Slider_box .best_recipe .best_recipe {
+        width: calc(50% - 20px);
+        /* padding: 0 10px; */
+        margin: 0 10px;
+    }
+
+    .best_recipe_Slider_box .best_recipe .best_recipe .img_box {
+        /* width: calc(50% - 20px); */
+        padding: 0 10px;
+        margin: 0 10px;
+        overflow: hidden;
+    }
+
+    .best_recipe_Slider_box .best_recipe .best_recipe .img_box img {
+        width: calc(100% - 20px);
+    }
+
+    .best_recipe_Slider_box .best_recipe .M_Information_box p {
+        font-size: 0.8125rem;
+    }
+
+
+    .best_recipe_btn {
+        /* bottom: 100px; left: 50%; */
+    }
+
+    .best_recipe_btn a {
+        font-size: 1.25rem;
+        padding: 10px 25px;
+        border-radius: 30px;
+    }
+
+    .best_recipe_btn i {
+        color: #333;
+        font-size: 2rem;
+        margin: 0 20px;
+        cursor: pointer;
+    
+        /* background-color: aqua; */
+    }
+
+
+
+
+/* ----------------------section_04  best_recipe_page---------------------- */
+
+
+
+/* ----------------------section_05  familySite_page---------------------- */
+
+    .section_05_inner{
+
+        padding-top: 0;
+    }
+
+    .link_img_box .ottogi_site .img_box .inner_box .link_btn {
+        border: 3px solid white;
+        padding: 10px 15px;
+        border-radius: 50px;
+        font-size: 1.25rem;
+    }
+
+
+
+    .link_img_box .ottogi_moll_site .img_box {
+        background-image: url(../img/section02_bg00.jpg);
+        background-size: auto 100%;
+        background-position: 75% center;
+    }
+
+    .link_img_box .ottogi_moll_site .img_box .inner_box {
+        position: absolute;
+        top: 50%; left: 35%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .link_img_box .ottogi_moll_site .img_box .inner_box .text_box {
+        display: block;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .link_img_box .ottogi_moll_site .img_box .inner_box .text_box h4 {
+        font-size: 1.25rem;
+    }
+
+    .link_img_box .ottogi_moll_site .img_box .text_box .yellow {
+        font-weight: bold;
+        color: #f49700;
+        font-size: 1.125rem;
+    }
+
+    .link_img_box .ottogi_moll_site .img_box .inner_box .link_btn {
+        border: 3px solid #333;
+        padding: 5px 15px;
+        border-radius: 50px;
+        font-size: 1.125rem;
+        background-color: transparent;
+
+        display: inline-block;
+    }
+
+
+
+    .link_img_box .library_H .img_box .inner_box .text_box {
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .link_img_box .library_H .img_box .text_box .red {
+        display: block;
+        font-weight: bold;
+        color: #bf132b;
+        font-size: 1.125rem;
+    }
+
+    .link_img_box .library_H .img_box .text_box p {
+        font-size: 1rem;
+    }
+
+    .link_img_box .library_H .img_box .inner_box .link_btn {
+        border: 3px solid #333;
+        padding: 5px 15px;
+        border-radius: 50px;
+        font-size: 1.125rem;
+
+        display: inline-block;
+    }
+
+    .link_img_box .library_H .img_box .inner_box .text_box h4 {
+        font-size: 1.25rem;
+    }
+
+
+
+
+
+    .footer {
+        height: 160px;
+    }
+
+    .footer .top_label .label_inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        line-height: 30px;
+    }
+
+    .footer .top_label .label_inner .page_list ul {
+        display:flex;
+    }
+
+    .footer .top_label .label_inner .page_list ul li a {
+        color: white;
+        font-size: 0.8125rem;
+    }
+
+    .footer .top_label .label_inner .page_list ul li ~ li::before {
+        content: "";
+        display: inline-block;
+        width: 1px; height: 15px;
+        background: white;
+        vertical-align: middle;
+        margin: 0 10px;
+    }
+
+
+    .footer .Bottom_box .Bottom_inner {
+        margin-top: 40px;
+    }
+
+
+
+}
+
+
+
+
+
+/* ----------------------section_05  familySite_page---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

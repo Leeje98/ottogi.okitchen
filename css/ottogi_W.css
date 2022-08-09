@@ -1,0 +1,868 @@
+
+
+@media all and (min-width:1025px) {
+
+.inner_header {
+    min-width: 1024px;
+    max-width: 1700px;
+    margin: 5px auto 0;
+
+    /* border: 1px solid #333; */
+
+}
+
+.inner_header .M_logo_box {display: none;}
+
+.inner_header .W_logo_box {
+    display: block;
+    width: 200px;
+    height: 50px;  
+    text-align: center;
+    margin: 5px 50px 5px 0;
+    padding-left: 70px;
+
+    /* border: 1px solid #333; */
+}
+
+.inner_header .W_logo_box .logo_text {
+    position: relative;
+}
+
+.inner_header .W_logo_box .logo_text .logo_img {
+    position: absolute;
+    height: 60px;
+    left: -55px;
+
+    animation-name: ottogi;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ottogi {
+    0% {transform: rotate(-50deg);}
+    10% {transform: rotate(50deg);}
+    20% {transform: rotate(-40deg);}
+    30% {transform: rotate(40deg);}
+    40% {transform: rotate(-20deg);}
+    55% {transform: rotate(20deg);}
+    60% {transform: rotate(-10deg);}
+    75% {transform: rotate(10deg);}
+    78% {transform: rotate(-5deg);}
+    82% {transform: rotate(5deg);}
+    87% {transform: rotate(0deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.inner_header .W_logo_box .logo_text .logo_img img {
+    height: 55px;
+}
+
+.inner_header .W_search_box {
+    flex: 0.6;
+    margin-right: 250px;
+
+    /* border: 1px solid #333; */
+}
+
+
+#search::placeholder {
+    opacity: 1;
+    color: #ffdf64;
+}
+
+
+
+.inner_header .category_box {
+    /* display: flex; */
+    margin-right: 20px;
+}
+
+.inner_header .category_box .categori_btn p {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+    
+
+
+/* ----------------------header---------------------- */
+
+
+
+
+/* ----------------------nav_box---------------------- */
+
+
+
+
+.M_section_nav {display: none;}
+.T_section_nav {display: none;}
+
+.W_section_nav {
+    display: block;
+    position: fixed;
+    right: 50px; top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.W_section_nav ul li img {
+    width: 50px;
+}
+
+.W_section_nav ul li a {
+    color: white;
+}
+
+.W_section_nav ul li a p {
+    display: none;
+}
+
+.W_section_nav ul .btn a::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: white;
+    vertical-align: middle;
+    margin: 25px 15px;
+
+    border: 1px solid #333;
+}
+
+.W_section_nav ul .btn a::after:hover {}
+
+
+
+
+
+
+
+/* ----------------------nav_box---------------------- */
+
+
+
+
+/* ----------------------menu_window---------------------- */
+
+
+
+
+    .metapo_box {
+        padding-top: 0px;
+    }
+
+    .metapo_box .menu_metapo {
+        padding: 10px 25px;
+    }
+
+    .menu_list .menu li ul li:hover a {
+        color: #f64646;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------menu_window---------------------- */
+
+
+
+
+/* ----------------------section_00 main_visual---------------------- */
+
+
+
+/* .main_visual .slider_nth_01 .img_box {
+    background-image: url(../img/visual_banner/main_visual01.jpg);
+}
+.main_visual .slider_nth_02 .img_box {
+    background-image: url(../img/visual_banner/main_visual02.jpg);
+}
+.main_visual .slider_nth_03 .img_box {
+    background-image: url(../img/visual_banner/main_visual03.jpg);
+}
+.main_visual .slider_nth_04 .img_box {
+    background-image: url(../img/visual_banner/main_visual04.jpg);
+}
+.main_visual .slider_nth_05 .img_box {
+    background-image: url(../img/visual_banner/main_visual05.jpg);
+}
+.main_visual .slider_nth_06 .img_box {
+    background-image: url(../img/visual_banner/main_visual06.jpg);
+} */
+
+/* .main_visual .slider_nth .text_box p {
+    font-size: 1.75rem;
+} */
+
+
+
+/* ----------------------section_00 main_visual---------------------- */
+
+
+
+
+
+
+
+/* ----------------------section_01  yomojomo_page---------------------- */
+
+
+
+
+
+    #section_01 {
+        background: linear-gradient( to top, #ffed93 65% , #ffffff 35% );
+    }
+
+    .section_01_inner {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: white;
+        padding: 15px 30px;
+
+        min-width: 1024px;
+        max-width: 1300px;
+        /* border: 1px solid #333; */
+    }
+    .section_01_inner .best_search {
+        flex: 1;
+        min-width: 250px;
+        padding: 0;
+    }
+
+    .section_01_inner .best_search h3 {
+        font-size: 2.7rem;
+    }
+
+    .section_01_inner .best_search p {
+        margin-bottom: 30px;
+    }
+    .section_01_inner .yomojomo_page_inner_T {
+        display: flex;
+
+        flex: 3;
+        margin: 0;
+    }
+
+    .section_01_inner .yomojomo_page_inner_T .recipe_box {
+        margin-right: 30px;
+        margin-bottom: 0
+    }
+
+    /* .section_01_inner .yomojomo_page_inner_T .measurement {
+        margin: 0;
+    } */
+    
+    .section_01_inner .yomojomo_page_inner_T .measurement .inner_measurement {
+        height: 530px;
+        width: 300px;
+        overflow: hidden;
+
+        /* border: 1px solid #333; box-sizing: border-box; */
+    }
+
+    .section_01_inner .yomojomo_page_inner_T .measurement .inner_measurement img {
+        /* padding-top: -15px; */
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .recipe_box {
+        height: 530px;
+
+        width: 300px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    
+        /* border: 1px solid #333; */
+    }
+        
+    .recipe_box .indicator p {
+        font-size: 1.2rem;
+    }
+
+    .recipe_box .indicator i {
+        font-size: 1.2rem;
+    }
+
+    .measurement p {
+        top: 50px;
+        left: 30px;
+        transform: none;
+    }
+
+    .measurement p strong {
+        font-size: 1.8rem;
+    }
+    .measurement p {
+        font-size: 1.2rem;
+    }
+
+
+
+
+/* ----------------------section_01  yomojomo_page---------------------- */
+
+
+
+/* ----------------------section_02  chef_tip_page---------------------- */
+
+.section_02_inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.section_02_inner .title {
+    margin: 50px auto 60px;
+
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.section_02_inner .title h3 {
+    font-size: 1.6rem;
+    line-height: 35px;
+}
+
+.section_02_inner .title h3::after {
+    height: 3px;
+    margin: 20px auto;
+}
+
+.section_02_inner .title p {
+    font-size: 1.1rem;
+}
+
+.center_Slider_box {
+    order: 2;
+    width: 100%;
+}
+
+.center_Slider_box div .img_box{
+    margin: 0 50px;
+    height: 350px;
+}
+
+.center_Slider_box div .img_box img {
+    width: 100%; 
+}
+
+
+.center_Slider_box div p {
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+
+.center_Slider_box div h4 {
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+
+
+.section_02_inner i {
+    font-size: 50px;
+    top: 49%;
+}
+.section_02_inner .fa-angle-left {
+    left: 50px;
+}
+.section_02_inner .fa-angle-right {
+    right: 50px;
+}
+
+.section_02_inner .chef_tip_btn {
+    margin-top: 50px;
+    order: 3;
+}
+
+.section_02_inner .chef_tip_btn a {
+    font-size: 1.3rem;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------- section_02  chef_tip_page ---------------------- */
+
+
+/* ----------------------section_03  chochen_recipe_page---------------------- */
+
+
+
+    .section_wrap #section_03 .section_03_inner {
+        padding-top: 0px;
+    }
+
+    .section_03_inner .title {
+        margin: 50px auto 30px;
+    }
+
+    .section_03_inner .title h3 {
+        font-size: 1.6rem;
+    }
+    
+    .section_03_inner .title h3::after {
+        margin: 25px auto;
+    }
+    
+    .section_03_inner .title p {
+        font-size: 1.2rem;
+    }
+
+
+
+    .chochen_recipe_btn {
+        margin: 0 auto 50px;
+    }
+
+    .chochen_recipe_btn a {
+        font-size: 1.2rem;
+        padding: 10px 25px;
+        border-radius: 30px;
+    }
+
+
+
+    
+
+    .recipe_list {
+        width: 820px;
+        transform: scale(0.8);
+    
+        /* border: 1px solid #333; box-sizing: border-box;
+        background-color: aqua; */
+    }
+
+    .recipe_list .recipe_list_inner {
+        /* margin-top: -50px; */
+    }
+    
+    .recipe_list .recipe_list_inner .recipe_box_outer_01 {
+        width: 400px;
+    }
+
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 {
+        width: 400px;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-2 {
+        width: 400px;
+        /* width: 100%; */
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-2 .recipe_text_box {
+        height: 180px;
+    }
+
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-2 .recipe_text_box p {
+        margin-top: 30px;
+    }
+    .recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-2 .recipe_text_box  h4 {
+        font-size: 1.5rem;
+        top: 50px;
+    }
+
+
+
+
+
+.section_03_inner {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 200px;
+
+    /* border: 1px solid #333;
+    background-color: aquamarine; */
+}
+
+.section_03_inner .title_box {
+    margin: 250px auto 30px;
+    height: 600px;
+
+    /* border: 1px solid #333;
+    background-color: aquamarine; */
+}
+
+.section_03_inner .title h3 {
+    font-size: 2.2rem;
+}
+
+.section_03_inner .title h3::after {
+    margin: 50px auto;
+}
+
+.section_03_inner .title p {
+    font-size: 1.4rem;
+}
+
+.chochen_recipe_btn {
+    margin: 120px auto 0;
+}
+
+.chochen_recipe_btn a {
+    font-size: 1.4rem;
+}
+
+.section_03_inner .recipe_list {
+    /* transform: scale(1.2); */
+    margin: 150px 170px 0 0;
+}
+
+.recipe_list .recipe_list_inner .recipe_box_outer_01 .recipe_box_outer_01-1_0 .recipe_text_box p,
+.recipe_list .recipe_list_inner .recipe_box_outer_02 .recipe_box_outer_02-2 .recipe_text_box p {
+    font-size: 1.1rem;
+}
+
+#chef_tip_prev {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    /* top: 350px; */
+    left: 33%;
+}
+
+#chef_tip_next {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    /* top: 350px; */
+    right: 33%;
+}
+
+
+
+
+
+
+
+
+/* ----------------------section_03  chef_tip_page---------------------- */
+
+/* ----------------------section_04  best_recipe_page---------------------- */
+
+
+#section_04 {
+    /* background: linear-gradient( to top, #ffed93 40%, white 60%); */
+    background: linear-gradient(white 60%, #ffed93 40%);
+}
+
+.section_04_inner {
+    /* position: relative; */
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: auto;
+    
+    /* border: 1px solid #333;
+    box-sizing: border-box; */
+}
+
+.section_04_inner .title {
+    margin-top: 70px;
+}
+
+/* .slick-track {
+    width: 8340px;
+    height: 343.5px;
+}
+.slick-slide {
+    width: 295px;
+    height: 343.5px;
+    margin: 0 20px;
+}
+
+.center_Slider_box .slick-slide {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+} */
+
+.best_recipe_Slider_box_outer {
+    /* width: calc(100vw - 60px); */
+    width: 100%;
+    margin-top: 70px;
+}
+
+.best_recipe_Slider_box .best_recipe {
+    /* margin: 0 20px; */
+    /* padding: 30px; */
+}
+
+.best_recipe_Slider_box .best_recipe .img_box .M_Information_box {
+    display: none;
+}
+
+
+.best_recipe_Slider_box .best_recipe .img_box .W_Information_box {
+    position: absolute;
+    display: block;
+    width: 100%; height: 100%;
+    /* top: 0;  */
+    bottom: -100%;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.5);
+    transition: 0.4s;
+}
+
+.best_recipe_Slider_box .best_recipe .img_box:hover .W_Information_box {
+    bottom: 0;
+}
+
+.best_recipe_Slider_box .best_recipe .img_box .W_Information_box .W_Information_inner {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+}
+
+.best_recipe_Slider_box .best_recipe .img_box .W_Information_box .W_Information_inner .W_Information_inner_0 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin:  0 auto;
+    color: white;
+}
+
+.best_recipe_Slider_box .best_recipe .img_box .W_Information_box .W_Information_inner div strong {
+    font-size: 1.7rem;
+    display: block;
+}
+
+
+.best_recipe_btn a {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------section_04  best_recipe_page---------------------- */
+
+
+
+/* ----------------------section_05  familySite_page---------------------- */
+
+.section_05_inner {
+    width: 80%;
+    height: calc(100vh - 100px - 130px);
+    margin: 0 auto;
+}
+
+
+.link_img_box {
+    padding-top: 50px;
+    height: calc(100vh - 130px - 200px - 100px);
+    flex-direction: row;
+
+    /* background-color: aqua; */
+}
+
+.link_img_box>div {
+    padding: 20px;
+}
+
+.link_img_box .ottogi_site .img_box {
+    background-image: url(../img/img_about1.jpg);
+    background-position: center center;
+}
+
+.link_img_box .ottogi_site .img_box .inner_box {
+    top: 65%; left: 50%;
+    width: 260px;
+}
+
+.link_img_box .ottogi_moll_site .img_box {
+    background-position: right;
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box {
+    width: 100%;
+    top: 50%; left: 50%;
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box .text_box {
+    position: relative;
+    line-height: 50px;
+    font-size: 1.125rem;
+
+    margin-bottom: 20px;
+}
+
+.link_img_box .ottogi_moll_site .img_box .flter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    background-color: #333;
+    opacity: 0.4;
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box .yellow {
+    color: #ffed93;
+    font-size: 1.25rem;
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box p {
+    color: white;
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box h4 {
+    color: white;
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box .link_btn {
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: normal;
+}
+
+
+.link_img_box .library_H .img_box .inner_box {
+    width: 100%;
+}
+
+.link_img_box .library_H .img_box .inner_box .text_box {
+    line-height: 50px;
+    font-size: 1.125rem;
+}
+
+.link_img_box .library_H .img_box .inner_box .text_box .red {
+    font-size: 1.25rem;
+    color: #f64646;
+}
+
+.link_img_box .library_H .img_box .inner_box .text_box p {
+    font-size: 1.125rem;
+}
+
+.link_img_box .library_H .img_box .inner_box .link_btn {
+    /* border: 2px solid white; */
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    /* color: white; */
+    font-weight: normal;
+}
+
+
+.footer .top_label {
+    height: 40px;
+}
+
+.footer .top_label .label_inner {
+    min-width: 1024px;
+    max-width: 1700px;
+    margin: 5px auto 0;
+    line-height: 30px;
+}
+
+
+
+
+}
+
+/* ----------------------section_05  familySite_page---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

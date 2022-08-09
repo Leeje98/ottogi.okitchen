@@ -1,0 +1,1251 @@
+/* @import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css 327"); */
+@font-face {
+    font-family: 'Binggrae-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Binggrae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {margin: 0; padding: 0; font-family: 'Binggrae';}
+li {list-style: none;}
+a {text-decoration: none; color: black;}
+html {font-size: 16px;}
+img {display: block;}
+
+.section_wrap {
+    /* overflow: hidden; */
+    /* height: calc(100vh - 100px); */
+    /* margin-top: 100px; */
+}
+
+.section_wrap section{
+    width: 100%;
+    /* height: calc(100vh - 100px); */
+    height: 100vh;
+    padding-top: 70px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #bf132b;
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0; left: 0;
+
+    z-index: 120;
+}
+
+.inner_header {
+    position: relative;
+    max-width: calc(100% - 20px);
+    display: flex;
+    justify-content: space-between;
+
+    /* border: 1px solid #333; */
+}
+
+.inner_header .M_logo_box {
+    width: 250px;
+    height: 60px;  
+    /* text-align: center; */
+    margin: 5px auto;
+
+    /* border: 1px solid #333; box-sizing: border-box; */
+}
+
+.inner_header .M_logo_box .img_box img {
+    height: 55px;
+}
+
+
+
+.inner_header .W_logo_box {display: none;}
+.inner_header .W_search_box {display: none;}
+
+.inner_header .category_box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 70px;
+    cursor: pointer;
+
+    /* border: 1px solid #333; box-sizing: border-box; */
+}
+
+.inner_header .category_box .categori_btn {
+    display: none;
+}
+
+.inner_header .category_box .categori_btn p {
+    display: none;
+}
+
+.inner_header .category_box .on {
+    display: block;
+}
+
+.inner_header .category_box .categori_btn i {
+    color: white;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+.M_search_box i {
+    position: fixed;
+    background-color: #bf132b;
+    color: #ffdf64;
+    bottom: 50px;
+    right: 30px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+
+
+
+/* ----------------------header---------------------- */
+
+
+
+
+/* ----------------------menu_window---------------------- */
+
+.menu_window {
+    position: fixed;
+    /* top: 72px;  */
+    top: 0;
+    left: 0;
+    z-index: 110;
+    width: 100%;
+
+    /* position: fixed;
+    top: 70px; left: 0;
+    z-index: 100;  */
+
+    background-color: white;
+    /* height: calc(100hv - 102px); */
+    /* height: calc(100% - 70px); */
+    height: 0;
+    overflow-y: scroll;
+
+    /* display: none; */
+}
+
+.menu_window .inner_menu_window {
+    padding-top: 72px;
+    width: calc(100% - 40px);
+    /* overflow: hidden; */
+    margin: 0 auto;
+}
+
+.metapo_box {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.metapo_box .menu_metapo {
+    width: 70px;
+    padding: 10px;
+}
+
+.metapo_box .menu_metapo .icon .img_box img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+
+/*  */
+
+
+.menu_list {
+    padding: 50px 0;
+}
+
+.menu_list .menu {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu_list .menu li {
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.menu_list .menu li .menu_category {
+    
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.menu_list .menu li ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 15px 0; */
+    justify-content: center;
+
+    height: 0;
+    overflow: hidden;
+}
+
+.menu_list .menu li ul li {
+    /* padding: 2px 10px; */
+    font-weight: normal;
+}
+
+.menu_list .menu li ul li ~ li::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: #333;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+
+
+
+/* ----------------------menu_window---------------------- */
+
+
+
+
+/* ----------------------section_00 main_visual---------------------- */
+
+/* ----------------------header_bottom_ladel---------------------- */
+
+
+.header_bottom_ladel {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    padding-top: 30px;
+
+    border-bottom: 1px solid #333;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    overflow: hidden;
+
+    z-index: 10;
+}
+
+.header_bottom_ladel .header_bottom_ladel_inner {
+    min-width: 1024px;
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_bottom_ladel .site_link {
+    display: flex;
+    margin-left: 5px;
+}
+
+.header_bottom_ladel .site_link a {
+    display: flex;
+}
+
+.header_bottom_ladel .site_link a i {
+    color: white;
+    background-color: #bf132b;
+    width: 30px; height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin: 5px 5px 5px 10px;
+}
+
+.header_bottom_ladel .site_link a p {
+    font-size: 0.9rem;
+    line-height: 40px;
+}
+
+.hashtag {display: none;}
+
+
+.T_section_nav {display: none;}
+.W_section_nav {display: none;}
+
+.M_section_nav {
+    position: fixed;
+    top: 70px; left: 0;
+    background-color: white;
+    width: 200%;
+    height: 30px;
+    /* border-top: 1px solid #333;
+    border-bottom: 1px solid #333; */
+    border: 1px solid #333;
+    overflow-x: scroll;
+    z-index: 100;
+}
+
+.M_section_nav ul {
+    display: flex;
+    width: 120%;
+    /* flex-wrap: nowrap; */
+    /* margin-left: 170px; */
+}
+
+.M_section_nav ul li {
+    margin: 0 5px;
+    /* float: left; */
+}
+
+.M_section_nav ul li a {
+    font-size: 0.8rem;
+    line-height: 30px;
+}
+
+
+
+
+
+/* ----------------------header_bottom_ladel---------------------- */
+
+/* ----------------------main_visual---------------------- */
+
+
+
+.main_visual {
+    /* z-index: -1; */
+    /* height: calc(100vh - 110px); */
+    height: 100%;
+}
+
+.main_visual .slider {
+    width: 100%;
+    height: 100%;
+}
+
+.main_visual .slider .slider_nth img {
+    /* margin-top: -20px; */
+}
+
+
+.main_visual .slider_nth {
+    position: relative;
+}
+
+.main_visual .slider_nth .img_box {
+    max-width: 100%; 
+    height: calc(100vh - 170px); 
+    margin: 0 0 50px;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .main_visual .slider_nth_01 .img_box {
+    background-image: url(../img/visual_banner/M_main_visual01.jpg);
+}
+.main_visual .slider_nth_02 .img_box {
+    background-image: url(../img/visual_banner/M_main_visual02.jpg);
+}
+.main_visual .slider_nth_03 .img_box {
+    background-image: url(../img/visual_banner/M_main_visual03.jpg);
+}
+.main_visual .slider_nth_04 .img_box {
+    background-image: url(../img/visual_banner/M_main_visual04.jpg);
+}
+.main_visual .slider_nth_05 .img_box {
+    background-image: url(../img/visual_banner/M_main_visual05.jpg);
+}
+.main_visual .slider_nth_06 .img_box {
+    background-image: url(../img/visual_banner/M_main_visual06.jpg);
+} */
+
+.main_visual .slider_nth_01 .img_box {
+    background-image: url(../img/visual_banner/main_visual01.jpg);
+}
+.main_visual .slider_nth_02 .img_box {
+    background-image: url(../img/visual_banner/main_visual02.jpg);
+}
+.main_visual .slider_nth_03 .img_box {
+    background-image: url(../img/visual_banner/main_visual03.jpg);
+}
+.main_visual .slider_nth_04 .img_box {
+    background-image: url(../img/visual_banner/main_visual04.jpg);
+}
+.main_visual .slider_nth_05 .img_box {
+    background-image: url(../img/visual_banner/main_visual05.jpg);
+}
+.main_visual .slider_nth_06 .img_box {
+    background-image: url(../img/visual_banner/main_visual06.jpg);
+}
+
+
+
+.main_visual .slider_nth .text_box {
+    position: absolute;
+    top: 50%; left: 10%;
+    transform: translateY(-50%);
+    color: white;
+}
+.main_visual .slider_nth_05 .text_box {
+    color: #333;
+}
+
+.main_visual .slider_nth .text_box p {
+    font-size: 1.75rem;
+}
+
+.main_visual .slider_nth .text_box h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.main_visual .slider_nth .text_box ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main_visual .slider_nth .text_box ul li {
+    color: #333;
+    background-color: white;
+    padding: 5px 10px;
+    /* border: 1px solid #333; */
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 0.875rem;
+}
+
+.main_visual .slider_nth .text_box a {
+    color: white;
+}
+
+.main_visual .slider_nth .text_box a .button {
+    margin: 30px 0 0 0;
+    padding: 10px 30px;
+    background-color: #f64646;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.main_visual .slider_nth .text_box a .button:hover {
+    background-color: #a20a1f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------main_visual---------------------- */
+
+/* ----------------------section_00 main_visual---------------------- */
+
+
+
+
+
+
+
+/* ----------------------section_01  yomojomo_page---------------------- */
+
+
+#section_01 {position: relative;}
+
+.section_01_inner {
+    /* padding: 50px 0; */
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* border: 1px solid #333; */
+    /* background-color: #ffdf64; */
+}
+
+.best_search {
+    margin: 10px 0 15px 30px;
+
+    width: 100%;
+}
+
+.best_search h3::after {
+    content: "";
+    display: block;
+    width: 50px; height: 1px;
+    background-color: #333;
+    margin: 7px 0 5px;
+}
+
+.best_search p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.best_search .best_search_list {
+    overflow-x: scroll;
+}
+
+.best_search ul {
+    display: flex;
+    width: 220%;
+}
+
+.best_search ul li {
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    margin-right: 5px;
+    /* overflow-x: scroll; */
+}
+
+.best_search ul li:hover {
+    border: none;
+    background-color: #d12333;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.outer_recipe_box {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+
+    /* border: 1px solid #333; */
+}
+
+.recipe_box {
+    position: relative;
+    width: calc(50% - 5px);
+    height: 280px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    /* border: 1px solid #333; */
+}
+
+.recipe_box h4 {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+
+.recipe_box div ul li {display: none;}
+.recipe_box div ul .on {display: block;}
+
+.kids_recipe {
+    background-color: #f49700;
+}
+.history_recipe {
+    background-color: #ffdf64;
+}
+
+.recipe_box .slider_img_box {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+
+    /* border: 3px solid white; */
+    overflow: hidden;
+}
+
+.recipe_box .slider_img_box ul li {
+    text-align: center;
+}
+.recipe_box .slider_img_box ul li img {
+    height: 120px;
+}
+
+.recipe_box  .slider_text ul li h5 {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 10px 0 5px;
+}
+
+.recipe_box  .slider_text ul li p {
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.recipe_box .indicator div div p {display: none;}
+.recipe_box .indicator div div .on {display: block; margin-right: 5px;}
+
+.recipe_box .indicator {
+    position: absolute;
+    bottom: 10px; left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.recipe_box .indicator p {
+    font-size: 0.6rem;
+}
+
+.recipe_box .indicator i {
+    font-size: 0.6rem;
+}
+
+.recipe_box .indicator div {
+    display: flex;
+}
+
+
+.measurement {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    position: relative;
+}
+
+.measurement img {
+    width: 100%;
+}
+
+.measurement p {
+    position: absolute;
+    top: 50%; left: 40px;
+    transform: translateY(-60%);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------section_01  yomojomo_page---------------------- */
+
+
+
+/* ----------------------section_02  chef_tip_page---------------------- */
+
+
+#section_02 {
+    background-image: url(../img/section04_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    
+    position: relative;
+}
+
+.section_02_inner {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* background-color: aqua; */
+}
+
+#section_02 .title {
+    margin: 80px auto 20px;
+    text-align: center;
+}
+
+#section_02 .title h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+#section_02 .title h3::after {
+    content: "";
+    width: 50px; height: 2px;
+    display: block;
+    background-color: #333;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#section_02 .title p {
+    font-size: 0.9rem;
+}
+
+
+
+
+#section_02 .center_Slider_box {
+    text-align: center ;
+}
+
+#section_02 .center_Slider_box div .img_box{
+    margin: 0 20px;
+    overflow: hidden;
+}
+
+#section_02 .center_Slider_box div .img_box img {
+    width: 100%;
+}
+
+#section_02 .center_Slider_box div p {
+    width: 85%;
+    margin: 0 auto;
+    line-height: 25px;
+    padding-top: 5px;
+    
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+
+
+#section_02 .center_Slider_box div h4 {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+
+
+.section_02_inner i {
+    /* position: absolute; */
+    font-size: 40px;
+    /* top: 47%; */
+
+    z-index: 10;
+}
+
+.section_02_inner .fa-angle-left {
+    left: 30px;
+}
+.section_02_inner .fa-angle-right {
+    right: 30px;
+}
+
+.section_02_inner .chef_tip_btn {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.section_02_inner .chef_tip_btn a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #d12333;
+    padding: 8px 25px;
+    border-radius: 20px;
+
+    /* transform: translateX(-50%); */
+}
+
+
+
+/* ----------------------section_02  chef_tip_page---------------------- */
+
+
+
+
+
+/* ----------------------section_03  chochen_recipe_page---------------------- */
+
+#section_03 {
+    position: relative;
+}
+
+.section_03_inner {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* border: 1px solid #333;
+    box-sizing: border-box; */
+}
+
+.section_03_inner .title {
+    margin: 80px auto 30px;
+    text-align: center;
+}
+
+.section_03_inner .title h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.section_03_inner .title h3::after {
+    content: "";
+    width: 50px; height: 2px;
+    display: block;
+    background-color: #333;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.section_03_inner .title p {
+    font-size: 0.9rem;
+}
+
+.chochen_recipe_btn {
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.chochen_recipe_btn a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: #d12333;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+
+
+.recipe_list {
+    width: 75%;
+    /* height: 62vh; */
+    height: calc(100vh - 350px);
+    margin: 0 auto;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+    text-align: center;
+
+    /* border: 1px solid #333;
+    background-color: aqua; */
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.recipe_list .recipe_list_inner {
+    width: 100%;
+    height: 1200px;
+}
+
+.recipe_list_inner .recipe_box {
+    width: 100%;
+}
+
+.recipe_list_inner .recipe_box .img_box {
+    width: 100%;
+}
+
+.recipe_list_inner .recipe_box .img_box img {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.recipe_list_inner .recipe_box .img_box:hover img {
+    transform: scale(1.1);
+}
+
+.recipe_list_inner .recipe_box .recipe_text_box {
+    background-color: #ffdf64;
+    padding: 10px 0 5px;
+    margin-top: -5px;
+}
+
+.recipe_list_inner .recipe_box .recipe_text_box p {
+    font-size: 0.8rem;
+}
+.recipe_list_inner .recipe_box .recipe_text_box h4 {
+    font-size: 1rem;
+    line-height: 15px;
+}
+
+
+
+/* ----------------------section_03  chochen_recipe_page---------------------- */
+
+
+/* ----------------------section_04  best_recipe_page---------------------- */
+
+#section_04 {
+    background: linear-gradient( to top, #ffed93 55%, white 45%);
+    position: relative;
+}
+
+/* .section_04_outer {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.section_04_inner {
+    /* position: relative; */
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* border: 1px solid #333;
+    box-sizing: border-box; */
+}
+
+.section_04_inner .title {
+    margin: 50px auto 30px;
+    text-align: center;
+    width: 210px;
+}
+
+.section_04_inner .title h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.section_04_inner .title h3::after {
+    content: "";
+    width: 50px; height: 2px;
+    display: block;
+    background-color: #333;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.section_04_inner .title p {
+    font-size: 0.9rem;
+}
+
+
+
+.best_recipe_Slider_box_outer {
+    /* width: calc(100vw - 60px); */
+    width: 80%;
+    margin: 0 auto;
+
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+
+.best_recipe_Slider_box {
+    width: 100%; 
+    /* height: auto; */
+    /* height: 100%; */
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+.best_recipe_Slider_box .best_recipe {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.best_recipe_Slider_box .best_recipe .img_box {
+    position: relative;
+    /* width: calc(100% - 10px); */
+    width: 100%;
+    /* padding: 0 5px; */
+    overflow: hidden;
+}
+
+.best_recipe_Slider_box .best_recipe .img_box img {
+    width: 100%;
+}
+
+.best_recipe_Slider_box .best_recipe .img_box .W_Information_box {
+    display: none;
+}
+
+.best_recipe_Slider_box .best_recipe .M_Information_box {
+    position: absolute;
+    bottom: 0; left: 0;
+    /* width: calc(100% - 10px); */
+    width: 100%;
+    /* margin-left: 5px; */
+    /* height: 50px; */
+    background-color: #f49700;
+}
+
+.best_recipe_Slider_box .best_recipe .M_Information_box p {
+    font-size: 0.75rem;
+    line-height: 30px;
+    /* padding-left: 10px; */
+    text-align: center;
+    color: white;
+}
+
+.best_recipe_Slider_box .best_recipe p {
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+
+.best_recipe_Slider_box .best_recipe h4 {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+.best_recipe_btn {
+    /* position: absolute;
+    bottom: -80px; left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; */
+
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.best_recipe_btn a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: #d12333;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+
+/* ----------------------section_04  best_recipe_page---------------------- */
+
+
+/* ----------------------section_05  familySite_page---------------------- */
+
+#section_05 {}
+
+.section_05_inner{
+    padding-top: 30px;
+}
+
+.link_img_box {
+    height: calc(100vh - 100px - 130px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    /* background-color: aqua; */
+}
+
+.link_img_box>div {flex: 1;}
+.link_img_box>div .img_box { overflow: hidden; }
+/* .link_img_box>div .img_box .inner_box { color: white;} */
+
+.link_img_box .ottogi_site .img_box {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    background-image: url(../img/visual_01.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.link_img_box .ottogi_site .img_box .inner_box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link_img_box .ottogi_site .img_box .inner_box .link_btn {
+    color: white;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+.link_img_box .ottogi_site .img_box .inner_box .link_btn:hover {
+    color: #333;
+    border: 2px solid #333;
+    background-color: white;
+}
+
+
+
+
+
+
+
+.link_img_box .ottogi_moll_site .img_box {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    background-image: url(../img/section02_bg00.jpg);
+    background-size: auto 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+
+.link_img_box .ottogi_moll_site .img_box .text_box {
+    display: none;
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box .link_btn {
+    color: #333;
+    border: 2px solid #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.link_img_box .ottogi_moll_site .img_box .inner_box .link_btn:hover {
+    color: #333;
+    border: 2px solid #333;
+    background-color: white;
+}
+
+
+
+
+
+.link_img_box .library_H .img_box {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    background-image: url(../img/book_banner_00.jpg);
+    background-size: auto 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.link_img_box .library_H .img_box .inner_box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.link_img_box .library_H .img_box .text_box .red {
+    display: none;
+}
+
+.link_img_box .library_H .img_box .text_box p {
+    font-size: 0.75rem;
+}
+
+.link_img_box .library_H .img_box .text_box h4 {
+    margin-bottom: 10px;
+}
+
+.link_img_box .library_H .img_box .inner_box .link_btn {
+    color: #333;
+    border: 2px solid #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+.link_img_box .library_H .img_box .inner_box .link_btn:hover {
+    color: #333;
+    border: 2px solid #333;
+    background-color: white;
+}
+
+
+
+
+
+
+
+.footer {
+    height: 130px;
+    background-color: #d12333;
+}
+
+.footer .top_label {
+    height: 30px;
+    overflow: hidden;
+    background-color: #bf132b;
+}
+
+.footer .top_label .label_inner {
+    text-align: center;
+}
+
+.footer .top_label .label_inner .page_list ul {
+    display: none;
+}
+
+.footer .top_label .label_inner .sns_box {
+    display: flex;
+    justify-content: center;
+}
+.footer .top_label .label_inner .sns_box a {
+    margin-left: 5px;
+}
+
+.footer .top_label .label_inner .sns_box a img {
+    height: 30px;
+}
+
+
+.footer .Bottom_box {
+}
+
+.footer .Bottom_box .Bottom_inner {
+    font-size: 0.75rem;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer .Bottom_box .Bottom_inner .copyright {
+    padding-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------section_05  familySite_page---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+

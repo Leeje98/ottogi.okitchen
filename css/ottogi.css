@@ -301,6 +301,7 @@ img {display: block;}
     /* border-top: 1px solid #333;
     border-bottom: 1px solid #333; */
     border: 1px solid #333;
+    /* box-sizing: border-box; */
     overflow-x: scroll;
     z-index: 100;
 }

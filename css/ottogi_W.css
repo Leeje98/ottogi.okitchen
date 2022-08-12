@@ -106,37 +106,64 @@
 .W_section_nav {
     display: block;
     position: fixed;
+    width: 50px;
+    height: 300px;
     right: 50px; top: 50%;
     transform: translateY(-50%);
     z-index: 100;
 }
 
-.W_section_nav ul li img {
+.W_section_nav ul .chapter_00 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.W_section_nav ul .chapter_00 img {
     width: 50px;
 }
 
-.W_section_nav ul li a {
-    color: white;
+
+.W_section_nav ul a {
+    position: relative;
 }
 
-.W_section_nav ul li a p {
-    display: none;
-}
-
-.W_section_nav ul .btn a::after {
-    content: "";
-    display: block;
+.W_section_nav ul a li {
     width: 15px;
     height: 15px;
     border-radius: 10px;
     background-color: white;
-    vertical-align: middle;
-    margin: 25px 15px;
+    margin: 25px auto;
+    text-align: center;
 
-    border: 1px solid #333;
+    border: 1px solid #ddd;
 }
 
-.W_section_nav ul .btn a::after:hover {}
+.W_section_nav ul li p {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: -5px;
+    left: -100px;
+    background-color: #f64646;
+    line-height: 30px;
+    text-align: center;
+    color: #ffed93;
+    border-radius: 5px;
+}
+.W_section_nav ul a .chapter_01 p {
+    height: 40px;
+    top: -15px;
+    line-height: 20px;
+}
+
+.W_section_nav ul a:hover li p {
+    display: block;
+}
+
+
 
 
 

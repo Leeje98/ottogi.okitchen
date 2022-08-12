@@ -187,6 +187,7 @@
         line-height: 50px;
         background-color: #ffed93;
         border: 2px solid #ffdf64;
+        box-sizing: border-box;
     }
 
     .T_section_nav ul li:first-child {

@@ -5,18 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript_mousewheel</title>
-    <script src="./js/jquery-3.6.0.min.js"></script>
-    <script src="./js/jquery.mousewheel.min.js"></script>
-    <script src="./js/jquery.scrollTo.min.js"></script>
-    <script src="./js/jquery.bxslider.js"></script>
-    <!-- <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-    <script src="./js/slick.js"></script>
 
-
-    <script src="./js/ottogi.js"></script>
-    <!-- <script src="./jquery.easing.1.3.js"></script> -->
-
-    <script src="https://kit.fontawesome.com/2c083cd22c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/jquery.bxslider_0.css">
     <link rel="stylesheet" href="./css/ottogi.css">
     <link rel="stylesheet" href="./css/ottogi_T.css">
@@ -24,6 +13,20 @@
 
     <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+    
+    <script src="./js/jquery-3.6.0.min.js" defer></script>
+    <script src="./js/jquery.mousewheel.min.js" defer></script>
+    <script src="./js/jquery.scrollTo.min.js" defer></script>
+    <script src="./js/jquery.bxslider.js" defer></script>
+    <!-- <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script src="./js/slick.js" defer></script>
+
+
+    <script src="./js/ottogi.js" defer></script>
+    <!-- <script src="./jquery.easing.1.3.js"></script> -->
+
+    <script src="https://kit.fontawesome.com/2c083cd22c.js" crossorigin="anonymous"></script>
+    
     
 
 
@@ -74,12 +77,12 @@
             <nav class="M_section_nav_inner nav">
 
                 <ul>
-                    <li><a href="#section_00">홈</a></li>
-                    <li><a href="#section_01">오'키친 요모조모</a></li>
-                    <li><a href="#section_02">셰프의 팁</a></li>
-                    <li><a href="#section_03">추천레시피</a></li>
-                    <li><a href="#section_04">인기레시피</a></li>
-                    <li><a href="#section_05">패밀리사이트</a></li>
+                    <li class="chapter_00"><a href="#section_00" id="M_00">홈</a></li>
+                    <li class="chapter_01"><a href="#section_01" id="M_01">오'키친 요모조모</a></li>
+                    <li class="chapter_02"><a href="#section_02" id="M_02">셰프의 팁</a></li>
+                    <li class="chapter_03"><a href="#section_03" id="M_03">추천레시피</a></li>
+                    <li class="chapter_04"><a href="#section_04" id="M_04">인기레시피</a></li>
+                    <li class="chapter_05"><a href="#section_05" id="M_05">패밀리사이트</a></li>
                 </ul>
 
             </nav>
@@ -87,23 +90,23 @@
 
         <nav class="T_section_nav nav">
             <ul>
-                <li><a href="#section_00"><img src="./img/logo-face.png" alt=""></a></li>
-                <li><a href="#section_01">1</a></li>
-                <li><a href="#section_02">2</a></li>
-                <li><a href="#section_03">3</a></li>
-                <li><a href="#section_04">4</a></li>
-                <li><a href="#section_05">5</a></li>
+                <li class="chapter_00" id="T_00"><a href="#section_00"><img src="./img/logo-face.png" alt=""></a></li>
+                <li class="chapter_01" id="T_01"><a href="#section_01">1</a></li>
+                <li class="chapter_02" id="T_02"><a href="#section_02">2</a></li>
+                <li class="chapter_03" id="T_03"><a href="#section_03">3</a></li>
+                <li class="chapter_04" id="T_04"><a href="#section_04">4</a></li>
+                <li class="chapter_05" id="T_05"><a href="#section_05">5</a></li>
             </ul>
         </nav>
 
         <nav class="W_section_nav nav">
             <ul>
-                <li><a href="#section_00"><img src="./img/logo-face.png" alt=""></a></li>
-                <li class="btn"><a href="#section_01"><p>오'키친 요모조모</p></a></li>
-                <li class="btn"><a href="#section_02"><p>셰프의 팁</p></a></li>
-                <li class="btn"><a href="#section_03"><p>추천레시피</p></a></li>
-                <li class="btn"><a href="#section_04"><p>인기레시피</p></a></li>
-                <li class="btn"><a href="#section_05"><p>패밀리사이트</p></a></li>
+                <a href="#section_00"><li class="chapter_00" id="W_00"><img src="./img/logo-face.png" alt=""></li></a>
+                <a href="#section_01"><li class="chapter_01 btn" id="W_01"><p>오'키친<br>요모조모</p></li></a>
+                <a href="#section_02"><li class="chapter_02 btn" id="W_02"><p>셰프의 팁</p></li></a>
+                <a href="#section_03"><li class="chapter_03 btn" id="W_03"><p>추천레시피</p></li></a>
+                <a href="#section_04"><li class="chapter_04 btn" id="W_04"><p>인기레시피</p></li></a>
+                <a href="#section_05"><li class="chapter_05 btn" id="W_05"><p>패밀리사이트</p></li></a>
             </ul>
         </nav>
 

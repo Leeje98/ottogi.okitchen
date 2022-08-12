@@ -18,7 +18,8 @@
 
 
   
-$(function(){
+// $(function(){
+$(document).ready(function() {
 
 
 
@@ -46,7 +47,7 @@ $(function(){
       })
   
   
-  }) 
+    }) 
 
 
 
@@ -101,6 +102,116 @@ $(function(){
     
     
     //  ---------마우스 휠 페이지 전환효과
+
+
+    
+        $(window).scroll(function(){
+
+          if($('#section_00').offset().top == $(this).scrollTop()) {
+
+
+            $('#M_00').css('color', 'red').css('fontWeight', 'bold');
+            $('#T_00').css('borderWidth', '3px').css('borderColor', '#bf132b');
+            $('#W_00').css('borderWidth', '3px').css('borderColor', '#bf132b');
+              
+          } else {
+
+            $('#M_00').css('color', '#333').css('fontWeight', 'normal');
+            $('#T_00').css('borderWidth', '2px').css('borderColor', '#ffdf64');
+            $('#W_00').css('borderWidth', '2px').css('borderColor', '#ddd');
+
+          }
+
+
+          if($('#section_01').offset().top == $(this).scrollTop()) {
+
+            $('#M_01').css('color', 'red').css('fontWeight', 'bold');
+            $('#T_01').css('borderWidth', '3px').css('borderColor', '#bf132b');
+            $('#T_01 a').css('color', '#bf132b').css('fontWeight', '700');
+            $('#W_01').css('borderWidth', '3px').css('borderColor', '#bf132b');
+              
+          } else {
+
+            $('#M_01').css('color', '#333').css('fontWeight', 'normal');
+            $('#T_01').css('borderWidth', '2px').css('borderColor', '#ffdf64');
+            $('#T_01 a').css('color', 'white').css('fontWeight', 'normal');
+            $('#W_01').css('borderWidth', '2px').css('borderColor', '#ddd');
+
+          }
+
+
+          if($('#section_02').offset().top == $(this).scrollTop()) {
+
+            $('#M_02').css('color', 'red').css('fontWeight', 'bold');
+            $('#T_02').css('borderWidth', '3px').css('borderColor', '#bf132b');
+            $('#T_02 a').css('color', '#bf132b').css('fontWeight', '700');
+            $('#W_02').css('borderWidth', '3px').css('borderColor', '#bf132b');
+              
+          } else {
+
+            $('#M_02').css('color', '#333').css('fontWeight', 'normal');
+            $('#T_02').css('borderWidth', '2px').css('borderColor', '#ffdf64');
+            $('#T_02 a').css('color', 'white').css('fontWeight', 'normal');
+            $('#W_02').css('borderWidth', '2px').css('borderColor', '#ddd');
+
+          }
+
+
+          if($('#section_03').offset().top == $(this).scrollTop()) {
+
+            $('#M_03').css('color', 'red').css('fontWeight', 'bold');
+            $('#T_03').css('borderWidth', '3px').css('borderColor', '#bf132b');
+            $('#T_03 a').css('color', '#bf132b').css('fontWeight', '700');
+            $('#W_03').css('borderWidth', '3px').css('borderColor', '#bf132b');
+              
+          } else {
+
+            $('#M_03').css('color', '#333').css('fontWeight', 'normal');
+            $('#T_03').css('borderWidth', '2px').css('borderColor', '#ffdf64');
+            $('#T_03 a').css('color', 'white').css('fontWeight', 'normal');
+            $('#W_03').css('borderWidth', '2px').css('borderColor', '#ddd');
+
+          }
+
+
+          if($('#section_04').offset().top == $(this).scrollTop()) {
+
+            $('#M_04').css('color', 'red').css('fontWeight', 'bold');
+            $('#T_04').css('borderWidth', '3px').css('borderColor', '#bf132b');
+            $('#T_04 a').css('color', '#bf132b').css('fontWeight', '700');
+            $('#W_04').css('borderWidth', '3px').css('borderColor', '#bf132b');
+              
+          } else {
+
+            $('#M_04').css('color', '#333').css('fontWeight', 'normal');
+            $('#T_04').css('borderWidth', '2px').css('borderColor', '#ffdf64');
+            $('#T_04 a').css('color', 'white').css('fontWeight', 'normal');
+            $('#W_04').css('borderWidth', '2px').css('borderColor', '#ddd');
+
+          }
+
+
+          if($('#section_05').offset().top == $(this).scrollTop()) {
+
+            $('#M_05').css('color', 'red').css('fontWeight', 'bold');
+            $('#T_05').css('borderWidth', '3px').css('borderColor', '#bf132b');
+            $('#T_05 a').css('color', '#bf132b').css('fontWeight', '700');
+            $('#W_05').css('borderWidth', '3px').css('borderColor', '#bf132b');
+              
+          } else {
+
+            $('#M_05').css('color', '#333').css('fontWeight', 'normal');
+            $('#T_05').css('borderWidth', '2px').css('borderColor', '#ffdf64');
+            $('#T_05 a').css('color', 'white').css('fontWeight', 'normal');
+            $('#W_05').css('borderWidth', '2px').css('borderColor', '#ddd');
+
+          }
+          
+          
+
+      }) // scroll_event
+
+    //  ---------섹션 페이지 전환효과
     
     
 

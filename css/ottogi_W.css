@@ -163,7 +163,9 @@
     display: block;
 }
 
-
+#W_00 {
+    border: 3px solid #bf132b;
+}
 
 
 
@@ -821,6 +823,11 @@
     font-weight: normal;
 }
 
+.link_img_box .library_H .img_box {
+    background-position: right;
+    /* filter: grayscale(0.8); */
+}
+
 
 .link_img_box .library_H .img_box .inner_box {
     width: 100%;
@@ -838,6 +845,11 @@
 
 .link_img_box .library_H .img_box .inner_box .text_box p {
     font-size: 1.125rem;
+    /* color: white; */
+}
+
+.link_img_box .library_H .img_box .inner_box .text_box h4 {
+    /* color: white; */
 }
 
 .link_img_box .library_H .img_box .inner_box .link_btn {
@@ -845,8 +857,9 @@
     padding: 10px 15px;
     border-radius: 50px;
     font-size: 1.25rem;
-    /* color: white; */
+    color: white;
     font-weight: normal;
+    border-color: white;
 }
 
 

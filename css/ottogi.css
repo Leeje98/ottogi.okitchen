@@ -31,7 +31,7 @@ img {display: block;}
     /* height: calc(100vh - 100px); */
     height: 100vh;
     padding-top: 70px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box;
 
     overflow: hidden;
@@ -118,6 +118,10 @@ img {display: block;}
     padding: 10px;
     border-radius: 50%;
     z-index: 100;
+}
+
+#search:focus {
+    outline: none;
 }
 
 
@@ -245,7 +249,7 @@ img {display: block;}
     background-color: white;
     padding-top: 30px;
 
-    border-bottom: 1px solid #333;
+    /* border-bottom: 1px solid #333; */
     box-sizing: border-box;
     /* background-color: aqua; */
     overflow: hidden;
@@ -323,6 +327,9 @@ img {display: block;}
     line-height: 30px;
 }
 
+#M_00 {
+    color: red;
+}
 
 
 

@@ -109,8 +109,14 @@ $(document).ready(function() {
 
           if($('#section_00').offset().top == $(this).scrollTop()) {
 
-
             $('#M_00').css('color', 'red').css('fontWeight', 'bold');
+            $('.M_section_nav ul').removeClass('ul_01');
+            $('.M_section_nav ul').removeClass('ul_02');
+            $('.M_section_nav ul').removeClass('ul_03');
+            $('.M_section_nav ul').removeClass('ul_04');
+            $('.M_section_nav ul').removeClass('ul_05');
+            $('.M_section_nav ul').addClass('ul_00');
+
             $('#T_00').css('borderWidth', '3px').css('borderColor', '#bf132b');
             $('#W_00').css('borderWidth', '3px').css('borderColor', '#bf132b');
               
@@ -126,6 +132,12 @@ $(document).ready(function() {
           if($('#section_01').offset().top == $(this).scrollTop()) {
 
             $('#M_01').css('color', 'red').css('fontWeight', 'bold');
+            $('.M_section_nav ul').removeClass('ul_00');
+            $('.M_section_nav ul').removeClass('ul_02');
+            $('.M_section_nav ul').removeClass('ul_03');
+            $('.M_section_nav ul').removeClass('ul_04');
+            $('.M_section_nav ul').removeClass('ul_05');
+            $('.M_section_nav ul').addClass('ul_01');
             $('#T_01').css('borderWidth', '3px').css('borderColor', '#bf132b');
             $('#T_01 a').css('color', '#bf132b').css('fontWeight', '700');
             $('#W_01').css('borderWidth', '3px').css('borderColor', '#bf132b');
@@ -143,6 +155,12 @@ $(document).ready(function() {
           if($('#section_02').offset().top == $(this).scrollTop()) {
 
             $('#M_02').css('color', 'red').css('fontWeight', 'bold');
+            $('.M_section_nav ul').removeClass('ul_00');
+            $('.M_section_nav ul').removeClass('ul_01');
+            $('.M_section_nav ul').removeClass('ul_03');
+            $('.M_section_nav ul').removeClass('ul_04');
+            $('.M_section_nav ul').removeClass('ul_05');
+            $('.M_section_nav ul').addClass('ul_02');
             $('#T_02').css('borderWidth', '3px').css('borderColor', '#bf132b');
             $('#T_02 a').css('color', '#bf132b').css('fontWeight', '700');
             $('#W_02').css('borderWidth', '3px').css('borderColor', '#bf132b');
@@ -160,6 +178,12 @@ $(document).ready(function() {
           if($('#section_03').offset().top == $(this).scrollTop()) {
 
             $('#M_03').css('color', 'red').css('fontWeight', 'bold');
+            $('.M_section_nav ul').removeClass('ul_00');
+            $('.M_section_nav ul').removeClass('ul_01');
+            $('.M_section_nav ul').removeClass('ul_02');
+            $('.M_section_nav ul').removeClass('ul_04');
+            $('.M_section_nav ul').removeClass('ul_05');
+            $('.M_section_nav ul').addClass('ul_03');
             $('#T_03').css('borderWidth', '3px').css('borderColor', '#bf132b');
             $('#T_03 a').css('color', '#bf132b').css('fontWeight', '700');
             $('#W_03').css('borderWidth', '3px').css('borderColor', '#bf132b');
@@ -177,6 +201,12 @@ $(document).ready(function() {
           if($('#section_04').offset().top == $(this).scrollTop()) {
 
             $('#M_04').css('color', 'red').css('fontWeight', 'bold');
+            $('.M_section_nav ul').removeClass('ul_00');
+            $('.M_section_nav ul').removeClass('ul_01');
+            $('.M_section_nav ul').removeClass('ul_02');
+            $('.M_section_nav ul').removeClass('ul_03');
+            $('.M_section_nav ul').removeClass('ul_05');
+            $('.M_section_nav ul').addClass('ul_04');
             $('#T_04').css('borderWidth', '3px').css('borderColor', '#bf132b');
             $('#T_04 a').css('color', '#bf132b').css('fontWeight', '700');
             $('#W_04').css('borderWidth', '3px').css('borderColor', '#bf132b');
@@ -194,6 +224,12 @@ $(document).ready(function() {
           if($('#section_05').offset().top == $(this).scrollTop()) {
 
             $('#M_05').css('color', 'red').css('fontWeight', 'bold');
+            $('.M_section_nav ul').removeClass('ul_00');
+            $('.M_section_nav ul').removeClass('ul_01');
+            $('.M_section_nav ul').removeClass('ul_02');
+            $('.M_section_nav ul').removeClass('ul_03');
+            $('.M_section_nav ul').removeClass('ul_04');
+            $('.M_section_nav ul').addClass('ul_05');
             $('#T_05').css('borderWidth', '3px').css('borderColor', '#bf132b');
             $('#T_05 a').css('color', '#bf132b').css('fontWeight', '700');
             $('#W_05').css('borderWidth', '3px').css('borderColor', '#bf132b');
